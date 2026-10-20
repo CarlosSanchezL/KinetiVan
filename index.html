@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>KinetiVan — More energy. More freedom.</title>
+  <meta name="description" content="KinetiVan captures the energy from your movement and turns it into usable power." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- ===================== HEADER ===================== -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="#home" class="logo" aria-label="KinetiVan home">
+        <svg class="logo__icon" viewBox="0 0 60 36" aria-hidden="true">
+          <path d="M2 34 L20 8 L30 22 L38 12 L58 34 Z" fill="#7ee08a"/>
+          <path d="M14 34 L26 17 L36 34 Z" fill="#3e9b52"/>
+        </svg>
+        <span>Kineti<b>Van</b></span>
+      </a>
+
+      <nav class="nav" id="nav">
+        <a href="#home" class="nav__link active">Home</a>
+        <a href="#about" class="nav__link">About</a>
+        <a href="#how" class="nav__link">How It Works</a>
+        <a href="#shop" class="nav__link">Shop</a>
+        <a href="#app" class="nav__link">App</a>
+        <a href="#gallery" class="nav__link">Gallery</a>
+        <a href="#faq" class="nav__link">FAQ</a>
+      </nav>
+
+      <div class="header__actions">
+        <button class="icon-btn" id="cartBtn" aria-label="Open cart">
+          <svg viewBox="0 0 24 24"><path d="M3 4h2l2.4 11.2a2 2 0 0 0 2 1.6h7.7a2 2 0 0 0 2-1.5L21 8H6"/><circle cx="10" cy="20" r="1.4"/><circle cx="17" cy="20" r="1.4"/></svg>
+          <span class="badge" id="cartCount">0</span>
+        </button>
+        <button class="icon-btn" id="accountBtn" aria-label="Account">
+          <svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21c1.5-4 4.5-6 8-6s6.5 2 8 6"/></svg>
+        </button>
+        <button class="icon-btn burger" id="burger" aria-label="Menu">
+          <svg viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ===================== HERO ===================== -->
+  <section class="hero" id="home">
+    <div class="container hero__content">
+      <p class="eyebrow">Kinetic flooring energy system</p>
+      <h1>More energy.<br /><span class="green">More freedom.</span></h1>
+      <p class="hero__text">
+        KinetiVan captures the energy from your movement and turns it into usable power.
+        Stay off-grid, reduce your environmental footprint and go further.
+      </p>
+      <div class="hero__btns">
+        <a href="#shop" class="btn btn--green">Shop Now <span class="arrow">→</span></a>
+        <button class="btn btn--outline" id="videoBtn">
+          <svg viewBox="0 0 24 24" width="16" height="16"><path d="M7 4l13 8-13 8z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
+          Watch Video
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== FEATURES ===================== -->
+  <section class="features" id="about">
+    <div class="container features__grid">
+      <div class="feature reveal">
+        <svg viewBox="0 0 40 40"><path d="M8 32C8 16 18 8 34 6c-1 16-9 26-24 26zM8 32l14-14"/></svg>
+        <div><h4>Clean Energy</h4><p>Silent and sustainable</p></div>
+      </div>
+      <div class="feature reveal">
+        <svg viewBox="0 0 40 40"><path d="M22 4L8 22h10l-2 14 14-18H20z"/></svg>
+        <div><h4>Energy Autonomy</h4><p>Less generator reliance</p></div>
+      </div>
+      <div class="feature reveal">
+        <svg viewBox="0 0 40 40"><path d="M20 4l13 5v10c0 9-6 15-13 17C13 34 7 28 7 19V9z"/><path d="M14 20l4 4 8-8"/></svg>
+        <div><h4>Durable Design</h4><p>Built for the road</p></div>
+      </div>
+      <div class="feature reveal">
+        <svg viewBox="0 0 40 40"><path d="M15 8l5-4 5 4M20 4v10M32 26l2 6-6 2M34 32l-8-5M8 32l-6-2 2-6M2 30l9-4"/><path d="M12 12L7 21M28 12l5 9M12 33h16"/></svg>
+        <div><h4>Less Waste</h4><p>Modular and repairable</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== PHOTO BAND + STATS ===================== -->
+  <section class="band">
+    <div class="container band__grid">
+      <div class="band__text reveal">
+        <p class="eyebrow">Off-grid, on your terms</p>
+        <h2>Every step inside your van<br />keeps you moving.</h2>
+      </div>
+      <div class="stats reveal">
+        <div><strong data-count="400">0</strong><span>Wh per day</span></div>
+        <div><strong data-count="2500">0</strong><span>Vans equipped</span></div>
+        <div><strong data-count="68">0</strong><span>% less generator use</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== HOW IT WORKS ===================== -->
+  <section class="how" id="how">
+    <div class="container how__grid">
+      <div class="how__text reveal">
+        <p class="eyebrow eyebrow--dark">How it works</p>
+        <h2>Turning your steps<br />into power.</h2>
+        <p>
+          KinetiVan uses kinetic floor tiles that capture energy from your movement.
+          This energy is controlled, stored in a buffer battery and available through
+          USB-C for your devices.
+        </p>
+        <ol class="steps">
+          <li data-layer="0"><span>1</span> Movement activates the floor tiles</li>
+          <li data-layer="1"><span>2</span> Energy flows to the controller</li>
+          <li data-layer="2"><span>3</span> Stored in the buffer battery</li>
+          <li data-layer="3"><span>4</span> Available through USB-C</li>
+        </ol>
+        <button class="btn btn--dark" id="learnMoreBtn">Learn more <span class="arrow">→</span></button>
+      </div>
+
+      <!-- Diagrama explosionado hecho con CSS (no requiere imágenes) -->
+      <div class="exploded reveal">
+        <div class="layers">
+          <div class="layer layer--tiles" data-layer="0">
+            <i></i><i></i><i></i><i></i><i></i><i></i>
+          </div>
+          <div class="layer layer--controller" data-layer="1"></div>
+          <div class="layer layer--battery" data-layer="2"><span class="cell"></span></div>
+          <div class="layer layer--base" data-layer="3"><span class="usb"></span></div>
+        </div>
+        <ul class="labels">
+          <li data-layer="0"><b>Kinetic floor tiles</b><small>Capture energy from your movement</small></li>
+          <li data-layer="1"><b>Controller</b><small>Manages the flow of energy</small></li>
+          <li data-layer="2"><b>Buffer battery</b><small>Stores the generated power</small></li>
+          <li data-layer="3"><b>USB-C output</b><small>Charge your devices</small></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== SHOP ===================== -->
+  <section class="shop" id="shop">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow">Shop</p>
+        <h2>Choose your kit</h2>
+        <p class="muted">Free shipping on all kits. 30-day return policy.</p>
+      </div>
+      <div class="products" id="products"><!-- Generado con JS --></div>
+    </div>
+  </section>
+
+  <!-- ===================== APP DEMO ===================== -->
+  <section class="app" id="app">
+    <div class="container app__grid">
+      <div class="app__text reveal">
+        <p class="eyebrow">The KinetiVan App</p>
+        <h2>Your energy.<br />Anywhere.</h2>
+        <p class="muted">
+          Monitor your battery, see how much energy you generate and control the USB-C output
+          in real time. <b>Try the live demo:</b> tap the tiles to "walk" and generate power.
+        </p>
+        <label class="switch-row">
+          <input type="checkbox" id="autoWalk" />
+          <span class="switch"></span>
+          Simulate walking automatically
+        </label>
+        <div class="store-btns">
+          <a href="#" class="store" data-toast="App Store link coming soon!">
+            <svg viewBox="0 0 24 24"><path d="M16.4 12.6c0-2.4 2-3.5 2-3.6-1.1-1.6-2.8-1.8-3.4-1.8-1.4-.2-2.8.8-3.5.8s-1.8-.8-3-.8C7 7.3 5.6 8.2 4.8 9.6c-1.6 2.8-.4 7 1.2 9.2.8 1.1 1.7 2.4 2.9 2.3 1.2 0 1.6-.7 3-.7s1.8.7 3 .7c1.3 0 2.1-1.1 2.8-2.2.9-1.3 1.3-2.5 1.3-2.6 0 0-2.6-1-2.6-3.7zM14.2 5.6c.6-.8 1.1-1.8 1-2.9-.9 0-2 .6-2.7 1.4-.6.7-1.1 1.8-1 2.8 1 .1 2-.5 2.7-1.3z" fill="currentColor"/></svg>
+            <span><small>Download on the</small>App Store</span>
+          </a>
+          <a href="#" class="store" data-toast="Google Play link coming soon!">
+            <svg viewBox="0 0 24 24"><path d="M4 3l10 9-10 9z" fill="#7ee08a"/><path d="M4 3l13 7-3 2z" fill="#4fc3f7"/><path d="M4 21l13-7-3-2z" fill="#ff7043"/><path d="M17 10l3 2-3 2-3-2z" fill="#ffd54f"/></svg>
+            <span><small>GET IT ON</small>Google Play</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- Teléfono interactivo -->
+      <div class="phone reveal">
+        <div class="phone__status"><span>9:41</span><span>●●● ▮</span></div>
+
+        <!-- Pantalla Home -->
+        <div class="screen active" data-screen="home">
+          <div class="phone__brand">Kineti<b>Van</b><small>Your energy. Anywhere.</small></div>
+          <div class="ring" id="ring">
+            <svg viewBox="0 0 120 120">
+              <circle cx="60" cy="60" r="52" class="ring__bg"/>
+              <circle cx="60" cy="60" r="52" class="ring__fg" id="ringFg"/>
+            </svg>
+            <div class="ring__label">
+              <span class="bolt">⚡</span>
+              <strong><span id="batteryPct">72</span><small>%</small></strong>
+              <em>Battery</em>
+            </div>
+          </div>
+          <div class="cards">
+            <div class="mini-card">
+              <span class="ico">⚡</span>
+              <p>Energy generated</p>
+              <strong><span id="genWh">320</span> Wh</strong>
+              <small>Today</small>
+            </div>
+            <button class="mini-card" id="usbToggle">
+              <span class="ico">🔌</span>
+              <p>USB-C output</p>
+              <strong id="usbState">On</strong>
+              <small id="usbWatts">12 W</small>
+            </button>
+          </div>
+          <div class="tip">🌿 More movement. More power.</div>
+        </div>
+
+        <!-- Pantalla Tiles -->
+        <div class="screen" data-screen="tiles">
+          <h5 class="screen__title">Kinetic Floor Tiles</h5>
+          <div class="tile-grid" id="tileGrid"></div>
+          <div class="tile-legend">
+            <span><i class="dot dot--on"></i> Active <b id="activeTiles">0</b>/8</span>
+            <span><i class="dot"></i> Power <b id="flowW">0</b> W</span>
+          </div>
+          <p class="hint">Tap the tiles to step on them 👣</p>
+        </div>
+
+        <!-- Pantalla Battery -->
+        <div class="screen" data-screen="battery">
+          <h5 class="screen__title">Battery</h5>
+          <div class="bar"><div class="bar__fill" id="barFill"></div><span id="barPct">72%</span></div>
+          <ul class="stat-list">
+            <li><span>Remaining power</span><b id="remaining">4 h 20 min</b></li>
+            <li><span>Total capacity</span><b>500 Wh</b></li>
+            <li><span>Stored now</span><b id="storedWh">360 Wh</b></li>
+            <li><span>Temperature</span><b id="temp">24°C</b></li>
+          </ul>
+          <ul class="stat-list status">
+            <li><span>Kinetic tiles</span><b class="ok">Working</b></li>
+            <li><span>Controller</span><b class="ok">Working</b></li>
+            <li><span>USB-C output</span><b id="usbStatus" class="ok">On</b></li>
+          </ul>
+        </div>
+
+        <nav class="phone__nav">
+          <button class="active" data-go="home">🏠<span>Home</span></button>
+          <button data-go="tiles">▦<span>Tiles</span></button>
+          <button data-go="battery">🔋<span>Battery</span></button>
+        </nav>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== GALLERY ===================== -->
+  <section class="gallery" id="gallery">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow">Life on the road</p>
+        <h2>Where KinetiVan takes you</h2>
+        <p class="muted">Mountains, beaches, forests and deserts. Click any photo to enlarge it.</p>
+      </div>
+      <div class="gallery__filters reveal">
+        <button class="chip active" data-filter="all">All</button>
+        <button class="chip" data-filter="mountain">Mountains</button>
+        <button class="chip" data-filter="coast">Coast</button>
+        <button class="chip" data-filter="forest">Forest &amp; night</button>
+        <button class="chip" data-filter="inside">Inside the van</button>
+      </div>
+      <div class="gallery__grid" id="galleryGrid"><!-- Generado con JS --></div>
+    </div>
+  </section>
+
+  <!-- ===================== TESTIMONIALS ===================== -->
+  <section class="testimonials">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow">Van lifers love it</p>
+        <h2>Real stories, real energy</h2>
+      </div>
+      <div class="testi__grid" id="testiGrid"><!-- Generado con JS --></div>
+    </div>
+  </section>
+
+  <!-- ===================== ADVENTURES ===================== -->
+  <section class="adventure">
+    <div class="adventure__img" role="img" aria-label="Van interior with kinetic floor"></div>
+    <div class="adventure__body">
+      <div class="reveal">
+        <p class="eyebrow">Your energy. Your way.</p>
+        <h2>Designed for<br />real adventures.</h2>
+        <p class="muted">
+          Whether you're exploring the mountains, the coast or the desert, KinetiVan gives you
+          reliable, silent and clean energy. The perfect companion for your van life.
+        </p>
+        <a href="#shop" class="btn btn--green">Shop Now <span class="arrow">→</span></a>
+      </div>
+      <div class="qr-card reveal">
+        <div class="qr" id="qr"></div>
+        <p>Scan to download<br />the KinetiVan App</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== FAQ ===================== -->
+  <section class="faq" id="faq">
+    <div class="container faq__grid">
+      <div class="reveal">
+        <p class="eyebrow eyebrow--dark">FAQ</p>
+        <h2>Questions?<br />We've got answers.</h2>
+        <p>Can't find what you need? <a href="#contact" class="link">Contact us</a>.</p>
+      </div>
+      <div class="accordion reveal">
+        <details open>
+          <summary>How much energy can the tiles generate?</summary>
+          <p>Each tile produces between 2 and 8 W per step depending on weight and pressure. A normal day of movement inside the van generates around 200–400 Wh with an 8-tile kit.</p>
+        </details>
+        <details>
+          <summary>Can I install it myself?</summary>
+          <p>Yes. The tiles click together and sit on top of your existing floor. The controller and battery connect with a single cable. Installation takes about 2 hours.</p>
+        </details>
+        <details>
+          <summary>Does it work with solar panels?</summary>
+          <p>Absolutely. The controller has an optional solar input, so both sources charge the same buffer battery.</p>
+        </details>
+        <details>
+          <summary>What happens if a tile breaks?</summary>
+          <p>The system is modular: you can replace a single tile without touching the rest. All kits include a 3-year warranty.</p>
+        </details>
+        <details>
+          <summary>Is it waterproof?</summary>
+          <p>Tiles are rated IP65 — resistant to dust, mud and splashes. The battery should stay in a dry area.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== CONTACT ===================== -->
+  <section class="contact" id="contact">
+    <div class="container contact__grid">
+      <div class="reveal">
+        <p class="eyebrow">Contact</p>
+        <h2>Let's talk.</h2>
+        <p class="muted">Questions about installation, orders or partnerships? Send us a message and we'll reply within 24 hours.</p>
+      </div>
+      <form class="form reveal" id="contactForm" novalidate>
+        <div class="field">
+          <label for="cName">Name</label>
+          <input id="cName" name="name" type="text" placeholder="Your name" required />
+          <small class="error"></small>
+        </div>
+        <div class="field">
+          <label for="cEmail">Email</label>
+          <input id="cEmail" name="email" type="email" placeholder="you@email.com" required />
+          <small class="error"></small>
+        </div>
+        <div class="field">
+          <label for="cMsg">Message</label>
+          <textarea id="cMsg" name="message" rows="4" placeholder="How can we help?" required></textarea>
+          <small class="error"></small>
+        </div>
+        <button type="submit" class="btn btn--green">Send message <span class="arrow">→</span></button>
+      </form>
+    </div>
+  </section>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="footer">
+    <div class="container footer__top">
+      <a href="#home" class="logo">
+        <svg class="logo__icon" viewBox="0 0 60 36" aria-hidden="true">
+          <path d="M2 34 L20 8 L30 22 L38 12 L58 34 Z" fill="#7ee08a"/>
+          <path d="M14 34 L26 17 L36 34 Z" fill="#3e9b52"/>
+        </svg>
+        <span>Kineti<b>Van</b></span>
+      </a>
+      <nav class="footer__nav">
+        <a href="#about">About</a><a href="#shop">Shop</a><a href="#app">App</a><a href="#faq">FAQ</a><a href="#contact">Contact</a>
+      </nav>
+      <div class="socials">
+        <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r=".8"/></svg></a>
+        <a href="#" aria-label="YouTube"><svg viewBox="0 0 24 24"><rect x="2" y="5" width="20" height="14" rx="4"/><path d="M10 9l5 3-5 3z"/></svg></a>
+        <a href="#" aria-label="TikTok"><svg viewBox="0 0 24 24"><path d="M14 3v11a3.5 3.5 0 1 1-3.5-3.5M14 3c.5 2.5 2.5 4 5 4"/></svg></a>
+      </div>
+    </div>
+    <div class="container footer__bottom">
+      <span>© <span id="year">2026</span> KinetiVan. All rights reserved.</span>
+      <span>Clean energy. A freer tomorrow.</span>
+    </div>
+  </footer>
+
+  <!-- ===================== CART DRAWER ===================== -->
+  <div class="overlay" id="overlay"></div>
+  <aside class="drawer" id="cartDrawer" aria-label="Shopping cart">
+    <div class="drawer__head">
+      <h3>Your cart</h3>
+      <button class="icon-btn" data-close aria-label="Close cart">✕</button>
+    </div>
+    <div class="drawer__items" id="cartItems"></div>
+    <div class="drawer__foot">
+      <div class="total"><span>Total</span><strong id="cartTotal">$0</strong></div>
+      <button class="btn btn--green btn--block" id="checkoutBtn">Checkout</button>
+    </div>
+  </aside>
+
+  <!-- ===================== MODAL ===================== -->
+  <div class="modal" id="modal" role="dialog" aria-modal="true">
+    <div class="modal__box">
+      <button class="icon-btn modal__close" data-close aria-label="Close">✕</button>
+      <div id="modalContent"></div>
+    </div>
+  </div>
+
+  <!-- ===================== LIGHTBOX ===================== -->
+  <div class="lightbox" id="lightbox">
+    <button class="icon-btn lb__close" data-lb="close" aria-label="Close">✕</button>
+    <button class="lb__nav lb__prev" data-lb="prev" aria-label="Previous">‹</button>
+    <figure>
+      <img id="lbImg" alt="" />
+      <figcaption id="lbCap"></figcaption>
+    </figure>
+    <button class="lb__nav lb__next" data-lb="next" aria-label="Next">›</button>
+  </div>
+
+  <div class="toast" id="toast"></div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
